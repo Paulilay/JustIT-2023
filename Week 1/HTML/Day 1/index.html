@@ -1,0 +1,106 @@
+<!-- Remember to use Emmet shortcuts. E.G: "!" for boilerplate -->
+
+<!--
+        HTML <!DOCTYPE html>:
+
+        - All HTML documents must start with a <!DOCTYPE> declaration.
+        - This indicates to the browser that the document is a HTML document.
+     -->
+<!DOCTYPE html>
+
+<!--
+             HTML <html>:
+     
+             - Contains all other elements aside from the <!DOCTYPE>.
+             - "lang" attribute defines the language that we are working in. In this case "en" represents English. 
+          -->
+<html lang="en">
+
+<!--
+             HTML <head>:
+     
+             - Contains the document Metadata (explained below).
+             - Content within the <head> tag is not displayed on our webpage. 
+             - The most common elements within the <head> tag are: <title>, <link>, <script> and <meta>.
+          -->
+
+<head>
+    <!--
+             HTML <meta>:
+     
+             - Defines metadata about the HTML document.
+             - Metadata is data about data, in this case information about the HTML document data. 
+             - Metadata is used by browsers to determine how the content should be displayed.
+             - Search engines and other web services also use Metadata, such as keywords.
+          -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--
+             HTML <title>:
+     
+             - Defines the title of the HTML document.
+             - The title of document is displayed in the browsers naviagation / tab bar.
+             - <title> tag is required in every document and is text-only.
+          -->
+    <title>HTML Intro</title>
+</head>
+
+<!--
+             HTML <body>:
+     
+             - Contains the contents of the HTML document.
+             - Unlike the <head> tag, elements within the <body> tag are displayed on the page.
+             - All elements that we want to display on our page are nested within the <body>.
+          -->
+
+<body>
+    <!--
+             HTML <h1> to <h6>:
+     
+             - Used to define HTML Headings.
+             - Numerically ordered by importance e.g. <h1> = Most Important and <h6> = Least Important.
+             - <h1> should only be used once per page as this represents the heading of the page.
+          -->
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!--
+             HTML <p>:
+     
+             - Used to define paragraphs.
+             - Commonly used for additional text content where a heading tag (<h1>) wouldn't be suitable.
+          -->
+
+    <p>Paragraph - p</p>
+    <!--
+             HTML <a> (anchor):
+     
+             - Used to define a hyperlink, linking one page to another.
+             - "href" attribute used to define the URL of the desired destnation.
+             - Without a "href" an <a> tag acts as a placeholder for a hyperlink.
+          -->
+
+    <a href="https://www.google.com/">a - Anchor Tag (Link)</a>
+    <a href="page2.html" target="_blank">Page 2</a>
+
+    <!--
+             HTML <img> (image):
+     
+             - Creates a holding space for an image to be linked to the webpage.
+             - The "src" attribute specifies the path to the desired image. Whether that be a file path or a URL.
+             - The "alt" attribute specifies alternate text for the image. If the image is unable to be displayed the text will show instead.
+          -->
+
+    <img src="Coffee.jpeg" alt="Two cups of coffee on a table">
+    <!-- Exteral Image SRC -->
+    <img src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Barista making a cup of coffee">
+</body>
+
+</html>

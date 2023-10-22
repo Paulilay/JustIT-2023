@@ -1,0 +1,51 @@
+/* Element Selector - Selects every instance of the desired element in the HTML document */
+
+/* h1 {
+    color: blueviolet;
+}
+
+p {
+    color: deeppink;
+} */
+
+/* ID selector - Select a specific element that matches the specified ID */
+/* Takes precident over element and class selectors */
+
+/* #p1 {
+    color: blue;
+} */
+
+/* Class Selector - Selects all elements with the specified classname */
+
+/* .paragraphs {
+    background-color: crimson;
+    color: white;
+} */
+
+/* h1,
+h2,
+p {
+    background-color: #344e41;
+    color: white;
+} */
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    background-color: #344e41;
+    color: #fff;
+    border: 5px solid rgb(255, 177, 32);
+    padding: 50px;
+    margin: 100px;
+}

@@ -1,0 +1,105 @@
+<!-- 
+    Task 2:
+ 
+    Create some example forms. Your forms must include the an example of each of the following input types:
+ 
+    Radio buttons, Checkboxes, File Upload Input, A Textarea, A Dropdown List
+ 
+    Once you have completed the challenge, familiarise yourself with "fieldset" and "legend" elements, to see how they work within a form.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+ </head>
+ <body>
+    <form action="./confirmation2.html">
+        <label for="firstName">First Name:
+            <input id="firstName" type="text" placeholder="First name..." required>
+        </label>
+        <br>
+        <br>
+        <label for="lastName">Last Name:
+            <input id="lastName" type="text" placeholder="Last name..." required>
+        </label>
+        <br>
+        <br>
+        <label for="pass">Password:
+            <input id="pass" type="password" maxlength="12" required>
+        </label>
+        <br>
+        <br>
+        <label for="email">Email:
+            <input id="email" type="email" placeholder="email@email.com">
+        </label>
+        <br>
+        <br>
+        <label for="phone">Phone Number:
+            <input id="phone" type="tel" placeholder="(+44)1235-7895">
+        </label>
+        <br>
+        <br>
+        <label for="dob">DOB:
+            <input id="dob" type="date">
+        </label>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Please select your preferred contact method:</legend>
+            <div>
+              <input type="radio" id="contactChoice1" name="contact" value="email" />
+              <label for="contactChoice1">Email</label>
+              <br>
+              <input type="radio" id="contactChoice2" name="contact" value="phone" />
+              <label for="contactChoice2">Phone</label>
+              <br>
+              <input type="radio" id="contactChoice3" name="contact" value="mail" />
+              <label for="contactChoice3">Mail</label>
+            </div>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Choose your pereferred programming language(s)</legend>
+            <div>
+              <input type="checkbox" id="html" name="interest" value="html" />
+              <label for="html">HTML</label>
+              <br>
+              <input type="checkbox" id="python" name="interest" value="python" />
+              <label for="python">Python</label>
+              <br>
+              <input type="checkbox" id="java" name="interest" value="java" />
+              <label for="java">Java</label>
+            </div>
+          </fieldset>
+        <br>
+        <br>
+          <label for="myFile">File Upload Input:</label>
+          <br>
+          <br>
+          <input type="file" id="myFile" name="filename">
+        <br>
+        <br>
+        <label for="comment">Other comments:</label>
+        <br>
+        <br>
+        <textarea id="comment" name="comment" rows="5" cols="50">Type here...</textarea>
+        <br>
+        <br>
+        <label for="code">Choose your favourite programing language:</label>
+            <select name="code" id="code">
+                <option value="html">HTML</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="c#">C#</option>
+                <option value="c++">C++S</option>
+  </select>
+  <br><br>
+        <input type="reset">
+        <input type="submit" value="Sign-Up">
+    </form>
+ </body>
+ </html>

@@ -1,0 +1,93 @@
+/* 
+    Task 4: 
+    Add some CSS styling to either an existing HTML webpage you have worked on, or a new HTML file.
+    You must correctly create and link a CSS Stylesheet to your HTML file and apply some CSS Rules to your webpage.
+    Your CSS file must include examples of:
+
+    - An element selector
+    - A class selector
+    - An id selector
+    - An imported font
+
+    Alongside use of the following CSS Properties:
+    margin, padding, border, color, background-color and font-family.
+*/
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background color */
+    color: #333; /* Dark text color */
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    padding: 40px;
+    background-color: #fff; /* White background color for sections */
+    margin-bottom: 20px;
+}
+
+/* Styles for each section heading */
+#overview h2,
+#video h2,
+#map h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+/* Styles for paragraphs in each section */
+#overview p,
+#video p,
+#map p {
+    line-height: 1.6;
+    color: #555; /* Slightly darker text color */
+}
+
+/* Styles for the embedded iframe */
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}

@@ -1,0 +1,86 @@
+<!--  
+    Task 3: 
+    Put together a basic HTML webpage structure wuith an
+    appropriate use of semantic HTML, alongside correct use of both the Class and ID
+    attributes. 
+
+    Your webpage must include an embedded Youtube video and an embedded
+    Google Map. 
+
+    Research "Favicons" and see if you are able to change the Favicon of
+    your website. 
+
+    Finally, utilise HTML validaiton to ensure that your HTML is error
+    free.  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+    <link rel="icon" type="image/x-icon" href="./logo.png">
+
+</head>
+<body>
+
+    <header>
+        <h1>Counter Strike 2 Game</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#video">Gameplay Video</a></li>
+                <li><a href="#map">Game Map</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <img src="./bg.jpg">
+    </div>
+
+    <section id="overview">
+        <h2>THE NEXT ERA OF COUNTER-STRIKE IS HERE!</h2>
+        <p>    
+        Counter-Strike 2 is the largest technical leap forward in Counter-Strike’s history, ensuring new features and updates for years to come.
+        Counter-Strike 2 is a free upgrade to CS:GO. So build your loadout, hone your skills, and prepare yourself for what’s next!
+        </p>
+        <br>
+        <br>
+        <h2>About Counter Strike 2</h2>
+        <p>
+            Counter-Strike 2 is here. 
+            Come take a look around. Counter-Strike 2 is the largest technical leap forward in Counter-Strike's history, supporting new features today and updates for years to come.
+            If you're a returning player you'll find your favorite maps and matchmaking modes right where you left them, along with a revamped Premier mode where you can establish your all-new CS Rating. 
+            Rise through the ranks and see where you stand on global and regional leaderboards.
+            For new players, learn the basics with some offline training and jump into Casual and Deathmatch to hone your skills. Once you've unlocked Competitive matchmaking you'll be off to the races.
+            Grab your friends, and come join millions of players around the world. Welcome to Counter-Strike 2.
+        </p>
+    </section>
+
+    <section id="video">
+        <h2>Gameplay Video</h2>
+        <p>
+            The most enduring E-sport!
+            For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe.
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nSE38xjMLqE?si=tYBJuZrq31dSArHx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <section id="map">
+        <h2>Game Map</h2>
+        <p>
+            The series began on Windows in 1999 with the release of the first game, Counter-Strike. It was initially released as a modification ("mod") for Half-Life 
+            that was designed by Minh "Gooseman" Le and Jess "Cliffe" Cliffe before the rights to the mod's intellectual property were acquired by Valve, 
+            the developers of Half-Life, who then turned Counter-Strike into a retail product released in 2000.
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5379.236316160421!2d-122.200898!3d47.614114!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906c87cb4a8415%3A0xd9cbfa56ca1c3269!2s10400%20NE%204th%20St%20floor%2014%2C%20Bellevue%2C%20WA%2098004%2C%20USA!5e0!3m2!1sen!2sin!4v1697899198407!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <p>© 2023 Counter Strike 2 Game. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
